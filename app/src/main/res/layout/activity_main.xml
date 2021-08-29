@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/get_question"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="1dp"
+        android:ems="12"
+        android:hint="@string/hint_question"
+        app:layout_constraintBottom_toTopOf="@+id/upload_db"
+        app:layout_constraintEnd_toEndOf="@+id/captured_image_img_view"
+        app:layout_constraintStart_toStartOf="@+id/answer_options"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Spinner
+        android:id="@+id/answer_options"
+        android:layout_width="143dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toTopOf="@+id/captured_image_img_view"
+        app:layout_constraintEnd_toEndOf="@+id/captured_image_img_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/captured_image_img_view"
+        app:layout_constraintTop_toBottomOf="@+id/get_question"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <ImageView
+        android:id="@+id/captured_image_img_view"
+        android:layout_width="359dp"
+        android:layout_height="458dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/select_image_from_galary"
+        android:layout_width="167dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:text="Take Pic"
+        app:layout_constraintBottom_toTopOf="@+id/Home"
+        app:layout_constraintEnd_toEndOf="@+id/captured_image_img_view"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toEndOf="@+id/upload_db" />
+
+    <Button
+        android:id="@+id/upload_db"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:text="Upload"
+        app:layout_constraintBottom_toTopOf="@+id/Home"
+        app:layout_constraintStart_toStartOf="@+id/captured_image_img_view" />
+
+    <EditText
+        android:id="@+id/question_number_et"
+        android:layout_width="198dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:hint="QuestionNumber"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/answer_options"
+        app:layout_constraintEnd_toEndOf="@+id/get_question"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/answer_options"
+        app:layout_constraintTop_toTopOf="@+id/answer_options"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="356dp"
+        android:layout_height="43dp"
+        android:text="Answers_Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/captured_image_img_view"
+        app:layout_constraintVertical_bias="0.797" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

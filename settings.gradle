@@ -1,0 +1,2 @@
+rootProject.name = "OnlineEXMguid"
+include ':app'

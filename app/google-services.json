@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "457904052706",
+    "firebase_url": "https://onlineexamguide-9497b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "onlineexamguide-9497b",
+    "storage_bucket": "onlineexamguide-9497b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457904052706:android:4a0051e326019f8b1e41bb",
+        "android_client_info": {
+          "package_name": "com.gowtham.varadharaj.onlineexamguid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457904052706-q4i0r4urij465c080l002067e9iml2r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gowtham.varadharaj.onlineexamguid",
+            "certificate_hash": "d13bb84b13d23dd98f5d8c0555508834fde89f6d"
+          }
+        },
+        {
+          "client_id": "457904052706-s8dvlsnbsvboo6ll49m6dku0dl7fu0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClTkMFjC8xVXKv6u6YDmCqo1HUz6cta-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457904052706-s8dvlsnbsvboo6ll49m6dku0dl7fu0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457904052706:android:f21d18b564d6fa1c1e41bb",
+        "android_client_info": {
+          "package_name": "com.gowtham.varadharaj.onlineexmguid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457904052706-49up86mpunrlvhgnipofp3mhuvtg7tt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gowtham.varadharaj.onlineexmguid",
+            "certificate_hash": "d13bb84b13d23dd98f5d8c0555508834fde89f6d"
+          }
+        },
+        {
+          "client_id": "457904052706-s8dvlsnbsvboo6ll49m6dku0dl7fu0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClTkMFjC8xVXKv6u6YDmCqo1HUz6cta-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457904052706-s8dvlsnbsvboo6ll49m6dku0dl7fu0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

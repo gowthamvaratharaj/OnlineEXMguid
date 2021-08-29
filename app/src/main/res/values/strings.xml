@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OnlineEXMguid</string>
+
+    <string name="hint_question">Enter Question</string>
+
+    <string name="question">Ques:</string>
+    <string name="answer">Ans:</string>
+    <string name="question_number">Question Number</string>
+
+    <string name="dialogTitle">successfully updated</string>
+    <string name="dialogMessage">Thanks for your answer..</string>
+    <string name="dialogTitleUpdate">successfully uploaded</string>
+    <string name="dialogMessageUpdate">Thanks ..</string>
+
+    <!-- this is string for spinner to select the answers from the options -->
+    <string-array name="answer_options">
+        <item>Select Options</item>
+        <item>Option A</item>
+        <item>Option B</item>
+        <item>Option C</item>
+        <item>Option D</item>
+        <item>Option E</item>
+        <item>Option F</item>
+        <item>None Of This Option / Report Error </item>
+    </string-array>
+
+</resources>
